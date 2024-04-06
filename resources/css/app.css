@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn_movie{
+        @apply text-white py-3 px-10 bg-blue-700 rounded hover:bg-blue-800 transition-all ease-in-out duration-700;
+    }
+}
